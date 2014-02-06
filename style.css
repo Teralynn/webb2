@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body
+{
+	height: 100%;		/* HTML body */
+}
+
+body {
+	background-color:#004040;
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, Times New Roman, serif;   /* Background */
+	font-size: 12px;
+	color: #555;
+	text-align:center;
+}
+
+#container {	
+	width: 1060px;
+	margin: 0 auto;			
+	padding: 10px 0 0 0;
+}
+
+#header {
+	width: 1040px;
+	height: 75px;
+	padding: 0 30px 0 0; 					
+	background-color:#2A1FAA;
+}
+
+#header #title {
+	margin: -5px 0 0 0;
+	font-size: 65px;
+	letter-spacing: 6px;			
+	color: #CFF;
+	font-weight:bold;
+}
+
+#menu {		
+	clear: both;
+	width: 1040px;				
+	height: 625px;
+	padding: 30px 10px 0 20px;
+	background-color:#D4FF00;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#menu li a:hover, #menu li .current{
+
+	color: #FFF;
+	background-color:#000000; center top repeat-x;    
+}
+
+#bildspel {
+	border-style:solid;
+	border-width:2px;
+	clear: both;
+	width: 75px;		
+	height: 40px;
+	margin: 25% 0 0 -98px;
+	background-color:#FF1F00;
+}
+
+#bildspel2 {
+	border-style:solid;
+	border-width:2px;
+	clear: both;
+	width: 75px;		
+	height: 40px;
+	margin: -4% 0 0 1050px;
+	background-color:#FF1F00;
+}
+
+#bildspel:hover, #bildspel  .current{
+	color: #2AFFFF;
+	background-color:#000000; center top repeat-x;
+}
+#bildspel2:hover, #bildspel2 .current{
+	color: #2AFFFF;
+	background-color:#000000; center top repeat-x;
+}
+
+#footer {
+	clear: both;
+	color: #ffffff;
+	width: 1060px;
+	height: 25px;
+	padding: 10px 10px 0 0;				
+	text-align: center;
+	background-color:#2A1FAA; no-repeat;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+#pic 
+{
+	width: 600px;
+	height: 600px;
+	margin: -30% 0 0 20%; 				
+	background-image:url("photos/glad.jpg");
+}
+
+#pic2
+{
+	width: 600px;
+	height: 600px;
+	margin: -30% 0 0 20%; 				
+	background-image:url("photos/mario.jpg");
+}
+
+
+
+
