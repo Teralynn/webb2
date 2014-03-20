@@ -15,18 +15,17 @@ body {
 	background-image:url("cssphotos/jpg.jpg"); 
 }
 
-
 #container {	
 	width: 1060px;
 	margin: 0 auto;			
-	padding: 10px 0 0 0;
+	padding: 15px 0 0 0;
 }
 
 #header {
 	width: 1040px;
 	height: 75px;
 	padding: 0 30px 0 0; 					
-	background-image:url('cssphotos/menu.jpg');
+	background-image:url('cssphotos/ph.jpg');
 	font-size:300%;
 	font-weight:bold; 
 }
@@ -96,7 +95,8 @@ body {
 	text-align: center;
 	background-image:url('cssphotos/menu.jpg'); no-repeat;
 	font-size: 15px;
-	letter-spacing: 2px;
+	letter-spacing: 1.70px;
+	font-style:italic;
 }
 
 #pic 
@@ -105,6 +105,44 @@ body {
 	height: 600px;
 	margin: -30% 0 0 20%; 					
 }
+
+#help 
+{
+	width: 300px;
+	height: 352px;
+	margin:-72.2% 0 0 -29.3%;
+	background-image:url('cssphotos/help.jpg');
+	text-align: center;
+	letter-spacing:0.75px;
+}
+
+#helptext 
+{
+	padding: 18px 12px 0 12px;
+	font-size: 22px;
+	font-weight:520;
+}
+
+#laddaupp 
+{
+	padding: 40px 0 0 0;
+	font-size:19px;
+	font-weight: 400;
+}
+
+#submit 
+{
+	width: 100px;
+	height: 30px;
+	margin: 10px 0 0 100px;
+	background-image:url('cssphotos/submit.jpg');
+}
+
+#submit:hover, #submit  .current{
+	color: #2AFFFF;
+	background-color:#33336C; center top repeat-x;
+}
+
 
 
 
