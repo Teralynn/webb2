@@ -7,7 +7,7 @@ html, body
 }
 
 body {
-	background-color:#004040;
+	background-color:#EAA6C0;
 	margin: 0;
 	padding: 0;
 	font-family: Georgia, "Times New Roman", serif;   /* Background */
@@ -101,9 +101,11 @@ body {
 
 #pic 
 {
-	width: 600px;
-	height: 600px;
-	margin: -30% 0 0 20%; 					
+	min-width: 500px;
+	min-height: 500px;
+	margin: -30% 0 0 20%;
+	max-width: 500px;
+	min-height: 500px;					
 }
 
 #help 
@@ -130,20 +132,28 @@ body {
 	font-weight: 400;
 }
 
-#submit 
+.submitid
 {
-	width: 100px;
-	height: 30px;
-	margin: 10px 0 0 100px;
+	width: 102px;
+	height: 35px;
+	margin: 10px 0 0 0px;
 	background-image:url('cssphotos/submit.jpg');
 }
 
-#submit:hover, #submit  .current{
-	color: #2AFFFF;
-	background-color:#33336C; center top repeat-x;
+#submitpic 
+{
+	width: 300px;
+	margin: 28% 0 0 0;
+	background-image:url('cssphotos/help.jpg');
 }
 
-
+#submitpictext 
+{
+	padding: 2.2px 30% 1.8px 0px;
+	letter-spacing:0.5px;
+	font-size:18px;
+	font-weight: 500;
+}
 
 
 

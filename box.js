@@ -11,23 +11,43 @@ var imgs = [
 		   'photos/placeholder.jpg',
 		   'photos/boom.jpg'
 		   ];
-var antal = imgs.length;			
+var antal = imgs.length;
 	 
 		 $('#bildspel').click(function() {		
 				 
 			 $('#imageSlide').fadeOut("fast", function() {
-				 
-         	  	   $(this).attr('src', imgs[(imgs.length++) % antal ]).fadeIn("fast");
-				 
+				  if(antal > 0) { 
+         	  	      $(this).attr('src', imgs[(--antal) % imgs.length ]).fadeIn("fast");
+				  }
 			 });	 
 		 });
 		 
 		 $('#bildspel2').click(function() {
 			 
-					 $('#imageSlide').fadeOut("fast", function() {
-						 
-				       	  	 $(this).attr('src', imgs[(imgs.length++) % antal ]).fadeIn("fast");
+					 $('#imageSlide').fadeOut("fast", function() {						
+				       	  	   $(this).attr('src', imgs[(++antal) % imgs.length ]).fadeIn("fast");  
         	 		 });	 
-		 });      
+		 }); 
+		 
+var piclist = $("input[name=picture]").val(); 
+var parentVar = $(this).parent().parent();
+parentVar.toggleClass('checked');
+
+var b = 1;
+$("#laddaupp").submit(function(event)
+	{
+		event.preventDefault();
+		var a = $("#picture").val();
+		if(b < 9) 
+		{
+			$("#submitpictext").append("<p><b><a href=http://" + a + ">Imgur picture " + b + "</a></b></p>");
+			b++;
+		}
+	});
+
 });
+
+
+
+
     
